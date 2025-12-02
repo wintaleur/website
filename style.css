@@ -1,0 +1,7 @@
+.circle {
+    width: 100px;
+    height: 100px;
+    background-color: var(--color, blue); /* couleur par défaut : bleu */
+    border-radius: 50%;
+    display: inline-block;
+}
