@@ -1,7 +1,8 @@
 .circle {
-    width: 100px;
-    height: 100px;
+    size: var(--size, 100);
+    width: size;
+    height: size;
     background-color: var(--color, blue); /* couleur par défaut : bleu */
     border-radius: 50%;
-    display: inline-block;
+    display: inline-block;  
 }
