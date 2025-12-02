@@ -1,7 +1,15 @@
+body {
+    display: flex;             /* active Flexbox */
+    justify-content: center;   /* centre horizontalement */
+    align-items: center;       /* centre verticalement */
+    height: 100vh;             /* prend toute la hauteur de la fenêtre */
+    margin: 0;                 /* supprime les marges par défaut */
+}
+
 .circle {
     width: var(--size, 100px);
     height: var(--size, 100px);
-    background-color: var(--color, blue); /* couleur par défaut : bleu */
+    background-color: var(--color, blue);
     border-radius: 50%;
-    display: inline-block;  
 }
+
